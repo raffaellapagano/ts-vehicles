@@ -1,0 +1,30 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/bg-app.png");
+}
+
+section{
+    background-color: rgb(255, 255, 255, 0.9);
+    margin: 3px;
+}
+
+#cardCar{
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+#sectionCarsCreate{
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.wheelDetail {
+    display: flex;
+    width:120px;
+    height:120px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131, 187, 233);
+}
